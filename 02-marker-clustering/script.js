@@ -31,6 +31,17 @@ circle.addTo(map);
 
 //add 3 new markers
 //Singapore Zoo
-//Singapore Discovery Centre
-//Jurong Bird Park
+let singaporeZoo = L.marker([1.4043, 103.7930]);
+singaporeZoo.addTo(map);
+singaporeZoo.bindPopup("<p>singapore zoo</p>");
 
+//Singapore Discovery Centre
+let singDisCentre = L.marker([1.3327, 103.6789]);
+singDisCentre.addTo(map);
+singDisCentre.bindPopup("<p>singapore discovery centre</p>");
+
+
+//Jurong Bird Park
+let jBirdPark = L.marker([1.3187, 103.7064]);
+jBirdPark.addTo(map);
+jBirdPark.bindPopup("<p>jurong bird park</p>");
