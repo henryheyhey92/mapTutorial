@@ -29,7 +29,7 @@ let circle = L.circle([1.35166526, 103.773663572], {
 
 circle.addTo(map);
 
-//add 3 new markers
+//add 3 new markers, markers can be can consider as layers
 //Singapore Zoo
 let singaporeZoo = L.marker([1.4043, 103.7930]);
 singaporeZoo.addTo(map);
